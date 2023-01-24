@@ -1,0 +1,88 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  padding-top: 1vh;
+  background-color: #e8e8e4;
+  height: 12vh;
+  color: white;
+  text-align: center;
+}
+.Header-logo {
+  padding-top: 1vh;
+  height: 9vh;
+}
+.Header-title {
+  padding-top: 4vh;
+}
+
+.Profile-Picture-Header {
+  height: 10vh;
+  border-radius: 2vh;
+}
+
+.App-Menu {
+  height: 20vh;
+  background-color: #e8e8e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  text-align: center;
+}
+.App-body {
+  height: 88vh;
+  background-color: #e8e8e4;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  text-align: center;
+}
+.Container-Background {
+  position: absolute;
+  min-height: 90vh;
+  width: 100%;
+  background-color: aliceblue;
+}
+.inputFile {
+  display: none;
+}
+
+.JoinRoom {
+  display: none;
+}
+
+.Switch-pages {
+  display: none;
+}
+.Profile-Picture-Body {
+  max-height: 20vh;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.BottomPage {
+  background-color: #e8e8e4;
+  height: 10vh;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
